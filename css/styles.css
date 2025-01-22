@@ -113,10 +113,9 @@ img {
   bottom: -1px;
   background-color: #404bbf;
 }
-
 .nav-link:hover,
 .nav-link:focus,
-nav-link.current {
+nav-link current {
   color: #404bbf;
 }
 .contacts {
@@ -145,6 +144,16 @@ nav-link.current {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
+  background-size: cover;
+  margin: 0 auto;
 }
 .container {
   padding-top: 188px;
@@ -195,6 +204,18 @@ nav-link.current {
   padding: 0 15px;
   margin: 0 auto;
 }
+.benefits-container {
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -216,8 +237,6 @@ nav-link.current {
 }
 .function {
   margin-bottom: 8px;
-}
-.descr-item {
 }
 
 /* section-3 */
