@@ -102,6 +102,7 @@ img {
 }
 .nav-link.current {
   position: relative;
+  color: #404bbf;
 }
 .nav-link.current::after {
   content: "";
@@ -265,6 +266,8 @@ nav-link current {
   border-radius: 0 0 4px 4px;
   overflow: hidden;
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .sm-list {
   padding: 0 16px;
@@ -417,7 +420,10 @@ nav-link current {
 .portfolio-item:hover .overlay {
   transform: translateY(0);
 }
-
+.portfolio-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 .content-prt {
   padding: 32px 16px;
   border-bottom: 1px solid #e7e9fc;
