@@ -256,7 +256,7 @@ nav-link current {
   max-width: 1158px;
   padding: 0 15px;
 }
-.team-des {
+.team-descr {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -270,7 +270,7 @@ nav-link current {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .sm-list {
-  padding: 0 16px;
+  padding-top: 9px;
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -332,12 +332,10 @@ nav-link current {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .descr-card {
-  margin-top: 0;
-  margin-bottom: 0;
   padding: 32px 0;
-  padding-bottom: 32px;
 }
 
 .team-h {
@@ -347,8 +345,6 @@ nav-link current {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
   padding-bottom: 8px;
 }
 
@@ -359,7 +355,7 @@ nav-link current {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 .team-img {
@@ -433,14 +429,6 @@ nav-link current {
   overflow: hidden;
   text-align: left;
 }
-.portfolio-h {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-top: 32px;
-}
 .otions {
   font-weight: 400;
   font-size: 16px;
@@ -454,7 +442,7 @@ nav-link current {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .otions {
   font-weight: 400;
