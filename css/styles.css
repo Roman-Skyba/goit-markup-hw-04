@@ -256,12 +256,7 @@ nav-link current {
   max-width: 1158px;
   padding: 0 15px;
 }
-.team-descr {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 72px;
-}
+
 .team-img {
   border-radius: 0 0 4px 4px;
   overflow: hidden;
@@ -270,11 +265,9 @@ nav-link current {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .sm-list {
-  padding-top: 9px;
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 7px;
 }
 .sm-item {
   width: 40px;
@@ -355,7 +348,7 @@ nav-link current {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .team-img {
@@ -429,13 +422,7 @@ nav-link current {
   overflow: hidden;
   text-align: left;
 }
-.otions {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .portfolio-h {
   font-weight: 500;
   font-size: 20px;
@@ -505,8 +492,6 @@ nav-link current {
   max-width: 264px;
 }
 
-.footer-social-container {
-}
 .social-media-item {
   font-weight: 500;
   font-size: 16px;
